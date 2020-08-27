@@ -1,0 +1,50 @@
+
+.case-header {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 60px;
+    font-family: 'Raleway';
+    font-weight: 300; 
+}
+
+.accordian{
+    list-style-type: none;
+    margin:0;
+    margin-top: 20px; 
+    padding:0;
+}
+
+.title:hover {
+    cursor: pointer; 
+}
+    
+    li{
+       border-bottom: 1px solid #eee;
+    }
+       
+       .title{
+          font-family: 'Raleway';
+          font-weight: 300; 
+          font-size: 25px; 
+          margin:0;
+          padding: 10px;
+       }
+       
+       .details{
+          padding:10px 10px 10px 30px;
+          display: none;
+          font-family: 'Raleway';
+          font-weight: 300; 
+       }
+
+.fa-caret-right {
+    color: rgb(90, 158, 44); 
+}
+    
+#learn-more-1 {
+    margin-top: 8px; 
+    color: rgb(11, 82, 175); 
+}
+#learn-more-1:hover {
+    cursor: pointer; 
+}
