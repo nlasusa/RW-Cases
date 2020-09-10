@@ -7,20 +7,40 @@ $(document).ready(function(){
  });
 
 // ON CLICK EVENTS 
-$("#learn-more-1").on('click', function(){
+$(".title").on('click', function(){
     window.location = "https://ktmc.com/new-cases/alteryx-inc#overview";    
   });
 
+
+// letter A 
   $("#a").on('click', function(){
    $("#alpha-A").show();
-   $("#alpha-B").hide();
+   // hide ALL others 
+   $("#alpha-B, #alpha-C, #alpha-D").hide();
  });
 
+// letter B 
  $("#b").on('click', function(){
    $("#alpha-B").show();
-   $("#alpha-A").hide();
+   // hide ALL others 
+   $("#alpha-A, #alpha-C, #alpha-D").hide();
  });
 
+ // letter C
+ $("#c").on('click', function(){
+  $("#alpha-C").show();
+  // hide ALL others 
+  $("#alpha-A, #alpha-B, #alpha-D").hide();
+});
+
+// letter D 
+$("#d").on('click', function(){
+  $("#alpha-D").show();
+  // hide ALL others 
+  $("#alpha-A, #alpha-B, #alpha-C").hide();
+});
 
  $("#alpha-A").hide();
  $("#alpha-B").hide();
+ $("#alpha-C").hide();
+ $("#alpha-D").hide();
